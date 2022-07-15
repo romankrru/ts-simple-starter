@@ -10,8 +10,7 @@
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
       "program": "${file}",
-      "preLaunchTask": "tsc: build - tsconfig.json",
-      "outFiles": ["${workspaceFolder}/lib/**/*.js"]
+      "preLaunchTask": "npm: build"
     }
   ]
 }
