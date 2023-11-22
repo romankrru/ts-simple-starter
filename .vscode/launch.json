@@ -10,7 +10,8 @@
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
       "program": "${file}",
-      "preLaunchTask": "npm: build"
+      "preLaunchTask": "swcCompileCurrentFile",
+      "outFiles": ["${workspaceFolder}/lib/**/*.js"]
     }
   ]
 }
